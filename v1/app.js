@@ -5,15 +5,25 @@ app.set("view engine", "ejs");
 app.use(express.static(__dirname + '/public/'));
 
 app.get("/about", function(req, res){
-  res.render("about")
+  res.render("about");
 })
 
 app.get("/contact", function(req, res){
-  res.render("contact")
+  res.render("contact");
 })
 
 app.get("/", function(req, res){
-  res.render("landing")
+  var images = [ 'images/brianinthewild.jpg', 'images/brianinthewater.jpg', 'images/cacti.jpg', 'images/cedarwax.jpg', 'images/climbinlady.jpg', 'images/dj.jpg', 'images/flowersbw.jpg', 'images/forks.jpg', 'images/ghostgirl.jpg', 'images/gnome.jpg', 'images/herbs.jpg', 'images/house.jpg', 'images/lunchtime.jpg', 'images/octovase.jpg', 'images/penguinlove.jpg', 'images/piencoffee.jpg', 'images/shy.jpg', 'images/cacti.jpg'
+  ]
+  // function shuffleArray(images) {
+  //   for (let i = images.length - 1; i > 0; i--) {
+  //       const j = Math.floor(Math.random() * (i + 1));
+  //       [array[i], array[j]] = [array[j], array[i]]; // eslint-disable-line no-param-reassign
+  //   }
+  //   return images;
+  // }
+
+  res.render("landing", {images: images});
 })
 app.use(express.static("."));
 
