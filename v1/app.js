@@ -4,6 +4,14 @@ var app = express();
 app.set("view engine", "ejs");
 app.use(express.static(__dirname + '/public/'));
 
+app.get("/work", function(req, res){
+  res.render("work")
+})
+
+app.get("/contact", function(req, res){
+  res.render("contact")
+})
+
 app.get("/", function(req, res){
   res.render("landing")
 })
