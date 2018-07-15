@@ -16,7 +16,12 @@ img {
 }
 
 .name {
+
     color: #7910b2 !important;
+    width: 100%;
+    padding-left: 3%;
+    padding-top: 2%;
+
 }
 
 .project {
