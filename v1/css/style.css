@@ -9,6 +9,22 @@ img {
     vertical-align: baseline;
 }
 
+/* Sophies Changes*/
+
+.current-menu-item {
+    color: #7910b2 !important;
+}
+
+.name {
+    color: #7910b2 !important;
+}
+
+.project {
+  width: 30%;
+  float: left;
+  margin: 1.66%;
+  box-shadow: 12px 12px 12px rgba(0,0,0,.1);
+}
 /*--------------------------------------------------------------
 # Links
 --------------------------------------------------------------*/
@@ -142,7 +158,7 @@ a:hover, a:active {
 
 .main-menu li a:hover,
 .main-menu li.current-menu-item a {
-    color: #f0437e;
+    color: #7910b2;
 }
 
 /*
@@ -215,7 +231,7 @@ a:hover, a:active {
 
     .main-menu li:hover::after,
     .main-menu li.current-menu-item::after {
-        color: #f0437e;
+        color: #7910b2;
     }
 
     .site-navigation {
@@ -1087,3 +1103,5 @@ a:hover, a:active {
 .single-page .entry-header .byline .date-format a {
     color: #bfbfbf;
 }
+
+
