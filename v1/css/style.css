@@ -9,6 +9,15 @@ img {
     vertical-align: baseline;
 }
 
+#pic{
+    position: relative;
+    float: left;
+    width:  275px;
+    height: 275px;
+    background-position: 50% 50%;
+    background-repeat:   no-repeat;
+    background-size:     cover;
+}
 /* Sophies Changes*/
 
 .current-menu-item {
