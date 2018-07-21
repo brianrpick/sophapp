@@ -18,7 +18,7 @@ img {
     background-repeat:   no-repeat;
     background-size:     cover;
 }
-/* Sophies Changes*/
+/* Sophie Changes*/
 
 .current-menu-item {
     color: #7910b2 !important;
@@ -38,6 +38,13 @@ img {
   float: left;
   margin: 1.66%;
   box-shadow: 12px 12px 12px rgba(0,0,0,.1);
+}
+
+.image {
+  width: 70%;
+  float:left;
+  max-height: 100%;
+  background-color: red;
 }
 /*--------------------------------------------------------------
 # Links

@@ -12,6 +12,10 @@ app.get("/contact", function(req, res){
   res.render("contact");
 })
 
+app.get("/bear", function(req, res){
+  res.render("brianinthewild");
+})
+
 app.get("/", function(req, res){
   var images = [ 'images/brianinthewild.jpg', 'images/brianinthewater.jpg', 'images/cacti.jpg', 'images/cedarwax.jpg', 'images/climbinlady.jpg', 'images/dj.jpg', 'images/flowersbw.jpg', 'images/forks.jpg', 'images/ghostgirl.jpg', 'images/gnome.jpg', 'images/herbs.jpg', 'images/house.jpg', 'images/lunchtime.jpg', 'images/octovase.jpg', 'images/penguinlove.jpg', 'images/piencoffe.jpg', 'images/shy.jpg', 'images/usinthewild.jpg'
   ]
